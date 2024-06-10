@@ -34,12 +34,26 @@ def generate_main_readme(problems_base_path, output_path):
         readme_file.write("    └── generate_readme.py\n")
         readme_file.write("```\n\n")
         
+        # Add problems list
         readme_file.write("## Problems List\n\n")
         for problem_dir in problem_directories:
             problem_path = os.path.join(problems_base_path, problem_dir, 'README.md')
             if os.path.exists(problem_path):
                 problem_title = get_problem_title(problem_path)
                 readme_file.write(f"- [{problem_title}](problems/{problem_dir}/README.md)\n")
+        
+        # Add navigation section
+        readme_file.write("\n## How to Navigate\n\n")
+        readme_file.write("Each problem is located in the `problems/` directory. Navigate to the problem's directory to find the problem statement and solutions in different programming languages.\n\n")
+        
+        # Add contribution section
+        readme_file.write("## How to Contribute\n\n")
+        readme_file.write("1. Fork this repository.\n")
+        readme_file.write("2. Create a new branch (`git checkout -b feature/problem-xyz`).\n")
+        readme_file.write("3. Add your solutions in the respective problem directory.\n")
+        readme_file.write("4. Commit your changes (`git commit -m 'Add solution for problem xyz'`).\n")
+        readme_file.write("5. Push to the branch (`git push origin feature/problem-xyz`).\n")
+        readme_file.write("6. Create a new Pull Request.\n")
 
 if __name__ == "__main__":
     problems_base_path = "problems"
