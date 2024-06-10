@@ -4,24 +4,6 @@ This repository contains solutions to various LeetCode problems. Each problem is
 
 ## Directory Structure
 
-LeetCode-Problems-Solutions/
-│
-├── README.md
-├── problems/
-│   ├── problem_001/
-│   │   ├── README.md
-│   │   ├── solution.py
-│   │   ├── solution.cpp
-│   │   ├── solution.java
-│   └── problem_002/
-│       ├── README.md
-│       ├── solution.py
-│       ├── solution.cpp
-│       ├── solution.java
-│       ...
-└── scripts/
-    └── generate_readme.py
-
 
 ## How to Navigate
 
