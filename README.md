@@ -19,7 +19,7 @@ LeetCode-Problems-Solutions/
 
 ## Problems List
 
-- [Contains Duplicate](problems/Contains Duplicate/README.md)
+- [Contains Duplicate](problems/Contains%20Duplicate/README.md)
 
 ## How to Navigate
 
