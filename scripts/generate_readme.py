@@ -49,10 +49,8 @@ def generate_main_readme(problems_base_path, output_path):
                 problems_base_path, problem_dir, 'README.md')
             if os.path.exists(problem_path):
                 problem_title = get_problem_title(problem_path)
-                # Correctly format the problem name in the link, replacing spaces with '%20'
-                problem_slug = problem_dir.replace(" ", "%20")
                 readme_file.write(
-                    f"- [{problem_title}](problems/{problem_slug}/README.md)\n")
+                    f"- [{problem_title}](problems/{problem_dir}/README.md)\n")
 
         # How to Navigate section
         readme_file.write("\n## How to Navigate\n\n")
