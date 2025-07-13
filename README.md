@@ -12,6 +12,9 @@ LeetCode-Problems-Solutions/
 │   ├── Contains Duplicate/
 │   │   ├── README.md
 │   │   ├── solution.py
+│   ├── Valid Anagram/
+│   │   ├── README.md
+│   │   ├── solution.py
 ├── scripts/
 │   ├── generate_readme.py
 │   └── generate_problem_folders.py
@@ -20,6 +23,7 @@ LeetCode-Problems-Solutions/
 ## Problems List
 
 - [Contains Duplicate](problems/Contains%20Duplicate/README.md)
+- [Valid Anagram](problems/Valid%20Anagram/README.md)
 
 ## How to Navigate
 
