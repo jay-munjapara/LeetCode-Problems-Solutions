@@ -12,6 +12,12 @@ LeetCode-Problems-Solutions/
 │   ├── Contains Duplicate/
 │   │   ├── README.md
 │   │   ├── solution.py
+│   ├── Group Anagrams/
+│   │   ├── README.md
+│   │   ├── solution.py
+│   ├── Two Sum/
+│   │   ├── README.md
+│   │   ├── solution.py
 │   ├── Valid Anagram/
 │   │   ├── README.md
 │   │   ├── solution.py
@@ -23,6 +29,8 @@ LeetCode-Problems-Solutions/
 ## Problems List
 
 - [Contains Duplicate](problems/Contains%20Duplicate/README.md)
+- [Group Anagrams](problems/Group%20Anagrams/README.md)
+- [Two Sum](problems/Two%20Sum/README.md)
 - [Valid Anagram](problems/Valid%20Anagram/README.md)
 
 ## How to Navigate
