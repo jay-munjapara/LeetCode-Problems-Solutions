@@ -9,5 +9,14 @@ class Solution(object):
         :rtype: List[int]
         """
         freq = Counter(nums)
-        ans = sorted(freq, key=lambda x: freq[x], reverse=True)
-        return ans[:k]
+        bucket = [[] for _ in range(len(nums) + 1)]
+
+        for num, index in freq.items():
+            bucket[index].append(num)
+
+        ans = []
+        for i in range(len(bucket) - 1, 0, -1):
+            for num in bucket[i]:
+                ans.append(num)
+            if len(ans) == k:
+                return ans
