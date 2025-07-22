@@ -12,7 +12,13 @@ LeetCode-Problems-Solutions/
 │   ├── Contains Duplicate/
 │   │   ├── README.md
 │   │   ├── solution.py
+│   ├── Encode And Decode Strings/
+│   │   ├── README.md
+│   │   ├── solution.py
 │   ├── Group Anagrams/
+│   │   ├── README.md
+│   │   ├── solution.py
+│   ├── Top K Frequent Elements/
 │   │   ├── README.md
 │   │   ├── solution.py
 │   ├── Two Sum/
@@ -29,7 +35,9 @@ LeetCode-Problems-Solutions/
 ## Problems List
 
 - [Contains Duplicate](problems/Contains%20Duplicate/README.md)
+- [Encode And Decode Strings](problems/Encode%20And%20Decode%20Strings/README.md)
 - [Group Anagrams](problems/Group%20Anagrams/README.md)
+- [Top K Frequent Elements](problems/Top%20K%20Frequent%20Elements/README.md)
 - [Two Sum](problems/Two%20Sum/README.md)
 - [Valid Anagram](problems/Valid%20Anagram/README.md)
 
