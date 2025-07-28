@@ -24,7 +24,13 @@ LeetCode-Problems-Solutions/
 │   ├── Two Sum/
 │   │   ├── README.md
 │   │   ├── solution.py
+│   ├── Two Sum Ii Input Array Is Sorted/
+│   │   ├── README.md
+│   │   ├── solution.py
 │   ├── Valid Anagram/
+│   │   ├── README.md
+│   │   ├── solution.py
+│   ├── Valid Palindrome/
 │   │   ├── README.md
 │   │   ├── solution.py
 ├── scripts/
@@ -39,7 +45,9 @@ LeetCode-Problems-Solutions/
 - [Group Anagrams](problems/Group%20Anagrams/README.md)
 - [Top K Frequent Elements](problems/Top%20K%20Frequent%20Elements/README.md)
 - [Two Sum](problems/Two%20Sum/README.md)
+- [Two Sum Ii Input Array Is Sorted](problems/Two%20Sum%20Ii%20Input%20Array%20Is%20Sorted/README.md)
 - [Valid Anagram](problems/Valid%20Anagram/README.md)
+- [Valid Palindrome](problems/Valid%20Palindrome/README.md)
 
 ## How to Navigate
 
